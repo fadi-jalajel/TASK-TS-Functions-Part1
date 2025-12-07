@@ -59,8 +59,8 @@ function printHello(name: string, language: LanguageType): void {
 }
 
 // example:
-printHello("Aziz", "es"); // => "Hola Aziz"
-printHello("Aziz", "fr"); // => "Bonjour Aziz"
+printHello("Fadi", "es"); // => "Hola Aziz"
+printHello("Fadi", "fr"); // => "Bonjour Aziz"
 
 /**
  * Task 4:
@@ -72,11 +72,9 @@ printHello("Aziz", "fr"); // => "Bonjour Aziz"
  */
 function printMax(x: number, y: number) {
   // write your code here
-  if (x > y) {console.log(x);}
-  else if (x < y) {console.log(y);}
-  else { 
-    console.log(`${x} equals ${y}`);
-  }
+  
+    console.log(Math.max(x,y));
+
 }
 
 // example:
