@@ -73,12 +73,13 @@ printHello("Fadi", "fr"); // => "Bonjour Aziz"
 function printMax(x: number, y: number) {
   // write your code here
   
-    console.log(Math.max(x,y));
+    const max = x > y ? x : y;
+    console.log(max);
 
 }
 
 // example:
-printMax(4, 7); // => 7
+printMax(4, 9); // => 7
 
 // don't touch me bro!
 export { printName, printAge, printHello, printMax, LanguageType };
